@@ -1,0 +1,26 @@
+.filter {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.filter__search {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.filters input {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.filters input:hover {
+    background-color: rgb(122, 220, 245);
+}
+
+.select {
+    background-color: rgb(102, 197, 252);
+}

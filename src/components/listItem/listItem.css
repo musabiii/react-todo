@@ -1,0 +1,22 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 1px solid black;
+  height: 30px;
+}
+
+.listItem label {
+  flex: 1;
+  text-align: left;
+}
+
+.listItem__del {
+  cursor: pointer;
+  color: brown;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}

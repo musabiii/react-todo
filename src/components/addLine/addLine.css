@@ -1,0 +1,19 @@
+.addLine__input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 10px;
+  width: 300px;
+}
+
+.addLine__btn {
+  outline: none;
+  border: none;
+  width: 100px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.addLine__btn:hover {
+    background-color: aqua;
+}
